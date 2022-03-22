@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-stashtable-master.flake = false;
+  inputs.src-stashtable-master.ref   = "refs/heads/master";
   inputs.src-stashtable-master.owner = "olliNiinivaara";
-  inputs.src-stashtable-master.ref   = "master";
   inputs.src-stashtable-master.repo  = "StashTable";
   inputs.src-stashtable-master.type  = "github";
   
